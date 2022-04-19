@@ -27,7 +27,7 @@ public class GoodsService {
 
     public GoodsResponseDto getAllByCategoryId(int id) {
         ArrayList<GoodResponseDto> goods = (ArrayList<GoodResponseDto>) goodsRepository
-                .findAllByGoodCategoryId(id).stream().map(
+                .findAllByGoodsCategoryId(id).stream().map(
                         good -> modelMapper.map(good, GoodResponseDto.class)
                 ).collect(Collectors.toList());
         return new GoodsResponseDto(goods);

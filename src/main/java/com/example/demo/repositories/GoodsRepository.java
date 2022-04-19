@@ -6,5 +6,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.ArrayList;
 
 public interface GoodsRepository extends JpaRepository<Good, Integer> {
-    ArrayList<Good> findAllByGoodCategoryId(int id);
+    ArrayList<Good> findAllByGoodsCategoryId(int id);
 }
