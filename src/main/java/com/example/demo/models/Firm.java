@@ -26,11 +26,11 @@ public class Firm {
     public String password;
 
     @Column
-    public int INN;
+    public int inn;
 
     @Column
     public String city;
 
     @Column
-    public int city_index;
+    public int cityIndex;
 }

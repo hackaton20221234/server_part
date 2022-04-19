@@ -1,6 +1,6 @@
 package com.example.demo.services;
 
-import com.example.demo.dtos.errors.CustomException;
+import com.example.demo.controllers.CustomException;
 import com.example.demo.dtos.requests.FirmRequestDto;
 import com.example.demo.dtos.response.FirmResponseDto;
 import com.example.demo.dtos.response.FirmsResponseDto;

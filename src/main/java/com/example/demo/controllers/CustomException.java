@@ -1,4 +1,4 @@
-package com.example.demo.dtos.errors;
+package com.example.demo.controllers;
 
 import org.springframework.http.HttpStatus;
 

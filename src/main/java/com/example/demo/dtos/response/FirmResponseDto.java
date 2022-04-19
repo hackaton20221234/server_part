@@ -6,5 +6,6 @@ import lombok.Data;
 public class FirmResponseDto {
     public int id;
     public String name;
-    public int INN;
+    public int inn;
+    public int cityIndex;
 }

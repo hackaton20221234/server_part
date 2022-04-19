@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @AllArgsConstructor
-public class AppsApiKeyService {
+public class AppsApiKeysService {
     private final AppsApiKeysRepository appsApiKeysRepository;
 
     public AppApiKey getByKeyAndDeviceId(String key, String deviceId) {
