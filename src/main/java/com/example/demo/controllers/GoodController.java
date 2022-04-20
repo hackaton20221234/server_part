@@ -20,7 +20,7 @@ public class GoodController {
         return goodsService.getAllByCategoryId(id);
     }
 
-    @GetMapping(value = "/getPictureByName/{pictureName}", produces = MediaType.IMAGE_JPEG_VALUE)
+    @GetMapping(value = "/getPictureByName/{pictureName}", produces = MediaType.IMAGE_PNG_VALUE)
     public @ResponseBody
     byte[] getPictureByName(@PathVariable String pictureName) throws Exception {
         FileInputStream inputStream = new FileInputStream("images/goods/" + pictureName);
